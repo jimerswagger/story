@@ -1,0 +1,11 @@
+.character-text {
+    font-weight: bold;
+}
+
+.character-text.jade-text {
+    color: rgb(2, 155, 2);
+}
+
+.character-text.seth-text {
+    color: rgb(32, 110, 254)
+}
