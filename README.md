@@ -1,0 +1,1 @@
+A website for a story I am writing. As I keep working on the story, I plan to update this website. It will contain information on each character, area, and the chapters/episodes as I come up with them.
