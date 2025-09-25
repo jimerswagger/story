@@ -1,11 +1,24 @@
-.character-text {
+.ch-txt {
+    font-size: 20px;
     font-weight: bold;
 }
 
-.character-text.jade-text {
+.ch-txt.jade {
     color: rgb(2, 155, 2);
 }
 
-.character-text.seth-text {
+.ch-txt.seth {
     color: rgb(32, 110, 254)
+}
+
+.ch-txt.eve {
+    color: rgb(219, 159, 243)
+}
+
+.ch-txt.lance {
+    color: rgb(38, 89, 153)
+}
+
+.ch-txt.lyra {
+    color: darkred
 }
