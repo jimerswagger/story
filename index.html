@@ -6,6 +6,46 @@
     <meta charset="utf-8">
     <title>Home</title>
     <link rel="stylesheet" href="styles.css">
+
+    <style> /* The CSS within 'style' tags only affects THIS HTML page */
+        body { /* changing the formatting of anything within <body> */
+        margin: 0; /* By default, this is some value greater than 0, leading to the entire website essentially being shrinked inwards*/
+        padding: 0; /* I'm not sure what this does */
+        }
+
+        h2, p { /* Groups h2 and p elements together to have CSS that affects them both */
+        margin: 10px;
+        }
+
+        ul {
+        list-style-type: none; /* Get rid of the bullet point thing */
+        margin: 0; /* No more indents from edge of a page */
+        padding: 0;
+        overflow: hidden; /* controls what happens to content that is too big to fit into an area */
+        /* So by saying 'hidden', the content inside this 'ul' list will not go over/beyond the space each list element has */
+        /* Making overflow: visible, the entire navbar disappears */
+        background-color: #333333;
+        }
+
+        ul li {
+        float: left /* affects the position of the navbar options in the container <ul> list */
+        }
+
+        ul li a { /* Descendant selector, 
+        affects elements that have <a> tags within <li> list elements within a <ul> unlisted list */
+
+        /* All that to say that this affects all of the navbar options, since they LINK to another webpage */
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        ul li a:hover {
+        background-color: #111111;
+        }
+    </style>
 </head>
 
 <body>
