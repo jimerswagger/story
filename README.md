@@ -1,1 +1,1 @@
-A website for a story I am writing. As I keep working on the story, I plan to update this website. It will contain information on each character, area, and the chapters/episodes as I come up with them.
+A website that contains the contents of a personal narrative that I am writing in my free time. This project aims to combine my web development knowledge and artistic creativity as I improve on them. For now, I am planning to have information on each character, areas in the world, chapters or episodes as I write them, and music for each area/leitmotifs for certain characters!
