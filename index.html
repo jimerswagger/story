@@ -10,8 +10,9 @@
     <style> /* The CSS within 'style' tags only affects THIS HTML page */
         body { /* changing the formatting of anything within <body> */
         margin: 0; /* By default, this is some value greater than 0, leading to the entire website essentially being shrinked inwards*/
-        padding: 0; /* I'm not sure what this does */
-        background-color:rgb(19,24,98);
+        padding: 0; /* The space around the styled element's content, basically padding lol */
+        /* background-color:rgb(19,24,98); Will be changed once final city design is complete */
+        background-color:rgb(0, 0, 0);
         }
 
         h2, p { /* Groups h2 and p elements together to have CSS that affects them both */
@@ -19,7 +20,7 @@
         }
 
         ul { /* Affects all content inside a <ul> list */
-        list-style-type: none; /* Get rid of the bullet point thing */
+        list-style-type: none; /* Gets rid of the bullet point thing */
         margin: 0; /* No more indents from edge of a page */
         padding: 0;
         overflow: hidden; /* controls what happens to content that is too big to fit into an area */
@@ -30,8 +31,8 @@
         background-color: #333333;
         }
 
-        ul li {
-        float: left /* affects the position of the navbar options in the container <ul> list */
+        ul li { /* Descendant selector */
+        float: left /* affects the position of the navbar options (<li> list elements) in the container <ul> list */
         }
 
         ul li a { /* Descendant selector, 
@@ -46,8 +47,8 @@
         font-size: 20px;
         }
 
-        ul li a:hover {
-        background-color: #111111;
+        ul li a:hover { /* When hovering over a (<a>)link within a (<li>)list element that is part of an (ul)unlisted_list */
+        background-color: #111111; /* Change the bg color of the list element */
         }
     </style>
 </head>

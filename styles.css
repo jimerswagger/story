@@ -3,7 +3,7 @@
     font-weight: bold;
 }
 
-.ch-txt.jade {
+.ch-txt.jade { /* class chain selector */
     color: rgb(2, 155, 2);
 }
 
@@ -25,4 +25,8 @@
 
 .ch-txt.dj {
     color: rgb(29, 0, 117)
+}
+
+.ch-txt.hannah {
+    color:rgb(218,165,32)
 }
