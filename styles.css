@@ -30,3 +30,27 @@
 .ch-txt.hannah {
     color:rgb(218,165,32)
 }
+
+.container {
+    display: flex;          /* enables flexbox, also flexbox works (by default) by instead of displaying items on a page on top of each other (up and down), the content will instead be displayed horizontally */
+    align-items: center;      /* vertical alignment of content (up and down) */
+    justify-content: center;  /* horizontal grouping of content (left to right) */
+    gap: 10px;                /* space between items on 'x-axis' / horizontal */
+}
+
+.container img {
+    width: 200px; /* width size of image in container class */
+}
+
+.text {
+    width: 205px; /* keeps text from pushing image */
+    text-align: center;
+}
+
+.left {
+    text-align: right; /* text on left side is aligned to the right of the text container*/
+}
+
+.right {
+    text-align: left; /* text on right side is aligned to the left of the text container*/
+}
