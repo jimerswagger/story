@@ -31,26 +31,26 @@
     color:rgb(218,165,32)
 }
 
-.container {
-    display: flex;          /* enables flexbox, also flexbox works (by default) by instead of displaying items on a page on top of each other (up and down), the content will instead be displayed horizontally */
-    align-items: center;      /* vertical alignment of content (up and down) */
-    justify-content: center;  /* horizontal grouping of content (left to right) */
-    gap: 10px;                /* space between items on 'x-axis' / horizontal */
+.inline-character-box {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 165px;
+    font-size: 22px;
 }
 
-.container img {
-    width: 200px; /* width size of image in container class */
-}
-
-.text {
-    width: 205px; /* keeps text from pushing image */
+.inline-center-box {
     text-align: center;
 }
 
-.left {
-    text-align: right; /* text on left side is aligned to the right of the text container*/
+.property-name {
+    font-size: 23px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-weight: bold;
 }
 
-.right {
-    text-align: left; /* text on right side is aligned to the left of the text container*/
+.char-info {
+    font-size: 22px;
+    margin-top: 0%;
 }
+
