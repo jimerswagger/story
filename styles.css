@@ -31,25 +31,26 @@
     color:rgb(218,165,32)
 }
 
-.inline-character-box {
+.inline-character-box { /* for character info 'boxes' */
     display: inline-block;
     box-sizing: border-box;
     width: 165px;
     font-size: 22px;
 }
 
-.inline-center-box {
+.inline-center-box { /* centers the aforementioned character info boxes */
     text-align: center;
 }
 
-.property-name {
+
+.property-name { /* ex: name, age */
     font-size: 23px;
     margin-bottom: 0%;
     margin-top: 0%;
     font-weight: bold;
 }
 
-.char-info {
+.char-info { /* ex: Jade, 19 */
     font-size: 22px;
     margin-top: 0%;
 }
