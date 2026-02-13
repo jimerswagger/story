@@ -55,7 +55,14 @@
     margin-top: 0%;
 }
 
+@font-face {
+  font-family: 'acumi-pro'; /* its a real font */
+  src: url(https://font.https://fonts.adobe.com/fonts/futura-pt/font/acumin-pro); /* local url of the font */
+}
+
 p {
     font-size: 20px;
+    font-family: 'Times New Roman', sans-serif; /* Change to different font eventually */
+    /* font-family: futura-pt, sans-serif; */
 }
 
