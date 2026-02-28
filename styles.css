@@ -55,6 +55,22 @@
     margin-top: 0%;
 }
 
+.flexbox-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.flexbox-container div {
+    box-sizing: border-box;
+    height: auto;
+    width: 200px;
+    /* margin: 0 5px; */
+    border-color: black;
+    text-align: center;
+    flex: 1;
+}
+
 @font-face {
   font-family: 'acumi-pro'; /* its a real font */
   src: url(https://font.https://fonts.adobe.com/fonts/futura-pt/font/acumin-pro); /* local url of the font */
