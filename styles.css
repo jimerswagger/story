@@ -31,7 +31,7 @@
     color:rgb(218,165,32)
 }
 
-.inline-character-box { /* for character info 'boxes' */
+.inline-character-box { /* for character info 'boxes', go unused in flexbox approach */
     display: inline-block;
     box-sizing: border-box;
     width: 165px;
@@ -41,6 +41,7 @@
 .inline-center-box { /* centers the aforementioned character info boxes */
     text-align: center;
 }
+/* Again this is not needed for the new flexbox approach because flexbox has its own way of doing it */
 
 
 .property-name { /* ex: name, age */
@@ -63,12 +64,21 @@
 
 .flexbox-container div {
     box-sizing: border-box;
-    height: auto;
-    width: 200px;
-    /* margin: 0 5px; */
-    border-color: black;
-    text-align: center;
+    height: 400px;
+    width: 200px; /* Dimensions of a flex item (width and height) are ignored with flexbox when flex-basis is set to anything other than 'auto'*/
+    margin: 0 1px;
+    padding: 10px 10px;
+    border: 1px solid black;
     flex: 1;
+    background: rgb(154, 236, 145);
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
 }
 
 @font-face {
