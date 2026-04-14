@@ -31,7 +31,7 @@
     color:rgb(218,165,32)
 }
 
-.inline-character-box { /* for character info 'boxes', go unused in flexbox approach */
+.inline-character-box { /* for character info 'boxes', goes unused in flexbox approach */
     display: inline-block;
     box-sizing: border-box;
     width: 165px;
@@ -60,6 +60,13 @@
     display: flex;
     align-items: center;
     margin: 10px 20px;
+}
+
+.flexbox-container.column {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    flex-direction: column;
 }
 
 .flexbox-container div {
