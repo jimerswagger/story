@@ -71,8 +71,8 @@
 
 .flexbox-container div {
     box-sizing: border-box;
-    height: 400px;
-    width: 200px; /* Dimensions of a flex item (width and height) are ignored with flexbox when flex-basis is set to anything other than 'auto'*/
+    /* height: 400px; */
+    width: 200px; /* Dimensions of a flex item (either width or height depending on flex-direction) are ignored with flexbox when flex-basis is set to anything except 'auto'*/
     margin: 0 1px;
     padding: 10px 10px;
     border: 1px solid black;
